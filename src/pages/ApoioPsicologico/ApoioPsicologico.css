@@ -1,0 +1,21 @@
+
+.Apoio_section_card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+.Apoio_section_card .Card {
+    background-color: #00D853;
+}
+
+.Apoio_section_card .box_text {
+    background-color: #3BFF00;
+    color: black;
+}
+.text_mini {
+    max-width: 400px;
+    margin: 60px auto;
+    font-size: 14px;
+}

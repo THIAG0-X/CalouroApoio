@@ -4,8 +4,10 @@ import App from './App'
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 
-import Home from './pages/home/index'
-
+import Home from './pages/home/Home'
+import VidaAcademica from './pages/VidaAcademica/VidaAcademica'
+import OportunidadesBeneficios from './pages/OportunidadesBeneficios/OportunidadesBenficios'
+import ApoioPsicologico from './pages/ApoioPsicologico/ApoioPsicologico'
 // const router = createBrowserRouter([
 //   {
 //     path: "/",
@@ -21,7 +23,19 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
-      }
+      },
+      {
+        path: "/VidaAcademica",
+        element: <VidaAcademica />,
+      },
+      {
+        path: "/OportunidadesBeneficios",
+        element: <OportunidadesBeneficios />,
+      },
+      {
+        path: "/ApoioPsicologico",
+        element: <ApoioPsicologico />,
+      },
     ],
   },
 ])

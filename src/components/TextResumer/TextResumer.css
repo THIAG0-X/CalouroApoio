@@ -1,0 +1,14 @@
+
+
+.TextResumer {
+    background-color: white;
+    padding: 10px;
+    gap: 20px;
+
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    color: black;
+    border-radius: 10px;
+    font-size: 12px;
+}

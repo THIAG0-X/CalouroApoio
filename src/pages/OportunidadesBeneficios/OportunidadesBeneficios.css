@@ -1,0 +1,20 @@
+
+.Oportunidade_section_card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+.Oportunidade_section_card .Card {
+    background-color: #FF8000;
+}
+
+.Oportunidade_section_card .box_text {
+    background-color: #FF5700;
+}
+.text_mini {
+    max-width: 400px;
+    margin: 60px auto;
+    font-size: 14px;
+}
