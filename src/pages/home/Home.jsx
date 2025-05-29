@@ -13,13 +13,13 @@ function Home() {
                 <img src="#" alt="imagem" />
                 <TextResumer>
                     <p className='title_resumer'>Vida Acadêmica</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, beatae quas? Aspernatur corrupti, officia consequatur, ratione obcaecati modi autem quos impedit recusandae quidem placeat quibusdam esse. Veritatis earum soluta velit.</p>
+                    <p>Em Vida Acadêmica, serão abordadas questões sobre os portais estudantis, organização de estudos e sobre a adaptação à rotina universitária. </p>
                 </TextResumer>
             </IntroCard>
             <IntroCard>
                 <TextResumer>
                     <p className='title_resumer'>Oportunidades e Benefícios</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, beatae quas? Aspernatur corrupti, officia consequatur, ratione obcaecati modi autem quos impedit recusandae quidem placeat quibusdam esse. Veritatis earum soluta velit.</p>
+                    <p>Em Oportunidades e Benefícios, encontre informações sobre bolsas de estudo, estágios, programas acadêmicos e muito mais.</p>
                 </TextResumer>
                 <img src="#" alt="imagem" />
             </IntroCard>
@@ -27,7 +27,7 @@ function Home() {
                 <img src="#" alt="imagem" />
                 <TextResumer>
                     <p className='title_resumer'>Apoio Psicológico</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, beatae quas? Aspernatur corrupti, officia consequatur, ratione obcaecati modi autem quos impedit recusandae quidem placeat quibusdam esse. Veritatis earum soluta velit.</p>
+                    <p>Em Apoio Psicológico, você saberá como cuidar da sua saúde mental principalmente nesse ambiente acadêmico, com orientações, serviços de apoio e dicas de bem-estar.</p>
                 </TextResumer>
             </IntroCard>
             <Footer />

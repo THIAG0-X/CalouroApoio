@@ -11,11 +11,10 @@ import { FaBars } from "react-icons/fa6"
 
 
 function Header() {
-     const [menuActive, setMenuActive] = useState(false);
+  const [menuActive, setMenuActive] = useState(false)
 
   const toggleMenu = () => {
-    console.log('clicado')
-    setMenuActive(!menuActive);
+    setMenuActive(!menuActive)
   };
 
     return(

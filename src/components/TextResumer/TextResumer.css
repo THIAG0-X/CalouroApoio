@@ -2,7 +2,7 @@
 
 .TextResumer {
     background-color: white;
-    padding: 10px;
+    padding: 50px;
     gap: 20px;
 
     display: flex;
@@ -10,5 +10,5 @@
     flex-flow: column;
     color: black;
     border-radius: 10px;
-    font-size: 12px;
+    font-size: 14px;
 }

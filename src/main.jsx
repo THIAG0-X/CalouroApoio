@@ -8,12 +8,7 @@ import Home from './pages/home/Home'
 import VidaAcademica from './pages/VidaAcademica/VidaAcademica'
 import OportunidadesBeneficios from './pages/OportunidadesBeneficios/OportunidadesBenficios'
 import ApoioPsicologico from './pages/ApoioPsicologico/ApoioPsicologico'
-// const router = createBrowserRouter([
-//   {
-//     path: "/",
-//     element: <Home />
-//   },
-// ])
+
 
 const router = createBrowserRouter([
   {

@@ -27,7 +27,7 @@ function ExpandableCard({ title, summary, details, emoji }) {
             </Card>
 
             <div className={`box_text ${isExpanded ? 'show' : ''}`}>
-                <p>{details}</p>
+                <div>{details}</div>
             </div>
         </div>
     )
