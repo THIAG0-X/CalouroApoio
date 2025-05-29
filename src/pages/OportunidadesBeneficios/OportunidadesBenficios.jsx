@@ -3,16 +3,16 @@
 import '../OportunidadesBeneficios/OportunidadesBeneficios.css'
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
-import ExpandableCard from '../../components/ExpandCard/ExpandCard'
+import ExpandCard from '../../components/ExpandCard/ExpandCard'
 
 function OportunidadesBeneficios() {
     return (
         <div>
             <Header />
-            <p className='text_mini'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus illo iure, impedit quod dicta repudiandae vel minima labore corrupti quae expedita? Blanditiis, dignissimos perspiciatis! Fuga adipisci quidem facilis atque dolor.</p>
+            <p className='text_mini'>Em Oportunidades e Benefícios, encontre informações sobre bolsas de estudo, estágios, programas acadêmicos e muito mais.</p>
             <section className="Oportunidade_section_card">
 
-                <ExpandableCard 
+                <ExpandCard 
                     title="Bolsas de Estudo"
                     summary="Saiba dos tipos de bolsas e como elas podem lhe ajudar finaceiramente em sua trajetória acadêmica."
                     details={
@@ -40,7 +40,7 @@ function OportunidadesBeneficios() {
                     emoji="💰"
                 />
 
-                <ExpandableCard 
+                <ExpandCard 
                     title="Estágios"
                     summary="Está com dúvida de como dar seu primeiro passo no mercado de trabalho? Os estágios podem ser a resposta a fim de consquistar experiências práticas."
                     details={
@@ -62,12 +62,24 @@ function OportunidadesBeneficios() {
                             <p>
                                 O estágio é além de trabalho, é aprendizado e construção de carreira, então caso ainda seja um calouro, quando se sentir preparado busque um estágio.
                             </p>
+                            <br />
+                            <p>
+                                Links para plataformas de estágio:
+                                <br />
+                                <br />
+                                <a href="https://portal.ciee.org.br">CIEE(Centro de Integração Escola)</a>
+                                <br />
+                                <a href="www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjPxtDGt8mNAxWILrkGHQu-K7AQFnoECBkQAQ&url=https%3A%2F%2Fwww.portaldaindustria.com.br%2Fiel%2F&usg=AOvVaw0TjBlkDtwkgXqVv1iuC9P4&opi=89978449">IEL(Instituto Euvaldo Lodi)</a>
+                                <br />
+                                <a href="https://www.nube.com.br">Nube(Núcleo Brasileiro de Estágios)</a>
+
+                            </p>
                         </div>
                     }
                     emoji="💼"
                 />
 
-                <ExpandableCard 
+                <ExpandCard 
                     title="Projetos e Programas Estudantis"
                     summary="Explore atividadades que enriquecem sua formação acadêmica e pessoal."
                     details={

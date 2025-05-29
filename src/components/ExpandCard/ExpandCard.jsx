@@ -4,7 +4,7 @@ import TextCard from '../../components/TextCard/TextCard'
 import { FaPlus, FaMinus } from 'react-icons/fa6'
 import '../ExpandCard/ExpandCard.css'
 
-function ExpandableCard({ title, summary, details, emoji }) {
+function ExpandCard({ title, summary, details, emoji }) {
     const [isExpanded, setIsExpanded] = useState(false)
 
     const toggleExpand = () => {
@@ -33,4 +33,4 @@ function ExpandableCard({ title, summary, details, emoji }) {
     )
 }
 
-export default ExpandableCard
+export default ExpandCard

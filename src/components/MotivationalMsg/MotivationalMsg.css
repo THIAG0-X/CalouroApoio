@@ -1,0 +1,12 @@
+.Motivational_msg {
+    background-color: #FF8000;
+    padding: 50px;
+    max-width: 550px;
+    margin-block: 50px;
+    margin:auto;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}

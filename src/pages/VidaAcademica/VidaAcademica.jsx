@@ -3,16 +3,16 @@
 import '../VidaAcademica/VidaAcademica.css'
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
-import ExpandableCard from '../../components/ExpandCard/ExpandCard'
+import ExpandCard from '../../components/ExpandCard/ExpandCard'
 
 function VidaAcademica() {
     return (
         <div>
             <Header />
-            <p className='text_mini'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus illo iure, impedit quod dicta repudiandae vel minima labore corrupti quae expedita? Blanditiis, dignissimos perspiciatis! Fuga adipisci quidem facilis atque dolor.</p>
+            <p className='text_mini'>Em Vida Acadêmica, serão abordadas questões sobre os portais estudantis, organização de estudos e sobre a adaptação à rotina universitária.</p>
             <section className="vida_section_card">
 
-                <ExpandableCard 
+                <ExpandCard 
                     title="Como Usar os Portais Acadêmicos"
                     summary="Adaptar aos sistemas acadêmicos de uma instituição, pode parecer complicado. Esse tópico pode lhe ajudar com isso."
                     details={
@@ -35,7 +35,6 @@ function VidaAcademica() {
                     <br />
                     <p>
                         Por isso, caso tenha dúvidas para utliza-lo contate o suporte da sua universidade, seja através de e-mail, telefone, ou ir ao prédio da instituição ou a um polo (caso faça EAD).
-
                     </p>
 
                     </div>
@@ -43,7 +42,7 @@ function VidaAcademica() {
                     emoji="💻"
                 />
 
-                <ExpandableCard 
+                <ExpandCard 
                     title="Organização de Estudos"
                     summary="Você dificuldade quando se trata de organização, então descubra métodos para aplica-la em seus estudos e melhorar seu rendimento."
                     details={
@@ -72,12 +71,25 @@ function VidaAcademica() {
                             <p>
                                 Utilize estes métodos da forma que melhor se encaixa para você, e aplique outros que encontrar além desses.
                             </p>
+                            <br />
+                            <p>
+                                Links para Apps de Organização:
+                                <br />
+                                <br />
+                               <a href="https://www.notion.com">Notion</a> 
+                                <br />
+                                <a href="https://trello.com/?campaign=19250238465&adgroup=150132247851&targetid=kwd-3609071522&matchtype=e&network=g&device=c&device_model=&creative=641355031678&keyword=trello&placement=&target=&ds_eid=700000001557344&ds_e1=GOOGLE&gad_source=1&gad_campaignid=19250238465&gclid=CjwKCAjwi-DBBhA5EiwAXOHsGRRHoj4tkNZJm-WFLcTeR-b6iKXGpO8CRx2teVzS_eeKDMtoTvLWjRoCq8sQAvD_BwE">Trello</a>
+                                <br />
+                                <a href="https://to-do.office.com/tasks/">Microsoft To Do</a>
+                                
+
+                            </p>
                         </div>
                     }
                     emoji="📚"
                 />
 
-                <ExpandableCard 
+                <ExpandCard 
                     title="Adaptação a Rotina Universitária"
                     summary="A adaptação pode ser um maiores dasafios para um calouro, saiba como se adaptar ao ambiente univesitário."
                     details={

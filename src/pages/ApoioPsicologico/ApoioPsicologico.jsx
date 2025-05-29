@@ -3,16 +3,16 @@
 import '../ApoioPsicologico/ApoioPsicologico.css'
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
-import ExpandableCard from '../../components/ExpandCard/ExpandCard'
+import ExpandCard from '../../components/ExpandCard/ExpandCard'
 
 function ApoioPsicologico() {
     return (
         <div>
             <Header />
-            <p className='text_mini'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus illo iure, impedit quod dicta repudiandae vel minima labore corrupti quae expedita? Blanditiis, dignissimos perspiciatis! Fuga adipisci quidem facilis atque dolor.</p>
+            <p className='text_mini'>Em Apoio Psicológico, você saberá como cuidar da sua saúde mental principalmente nesse ambiente acadêmico, com orientações, serviços de apoio e dicas de bem-estar.</p>
             <section className="Apoio_section_card">
 
-                <ExpandableCard 
+                <ExpandCard 
                     title="Saúde Mental no Mundo Acadêmico"
                     summary="Compreenda o porquê a saúde mental é tão importante no  ambiente universitário."
                     details={
@@ -50,7 +50,7 @@ function ApoioPsicologico() {
                     emoji="🧠"
                 />
 
-                <ExpandableCard 
+                <ExpandCard 
                     title="Bem-estar na Vida Universitária"
                     summary="Descubra as práticas simples que ajudam a manter o equilíbrio e bem-estar no dia a dia acadêmico."
                     details= {
@@ -88,7 +88,7 @@ function ApoioPsicologico() {
                     emoji="🪴"
                 />
 
-                <ExpandableCard 
+                <ExpandCard 
                     title="Apoio Psicológico"
                     summary="Caso precise de ajuda ou queira ter conhecimeto sobre como conseguir apoio psicológico, leia esse tópico."
                     details={
@@ -101,7 +101,7 @@ function ApoioPsicologico() {
                                 Apoio na própria instituição: muitas universidades oferecem atendimento psicológico, grupos de escuta ou acompanhamento psicológico temporário. Informe-se no setor de apoio ao estudante ou na coordenação.
                                 <br />
                                 <br />
-                                CVV (Centro de Valorização da Vida): atendimento gratuito, sigiloso e 24h, pelo telefone 188 ou pelo site www.cvv.org.br.
+                                CVV (Centro de Valorização da Vida): atendimento gratuito, sigiloso e 24h, pelo telefone 188 ou pelo site.
                                 <br />
                                 <br />
                                 Apps de apoio emocional: alguns aplicativos oferecem meditações, escuta ativa e orientação, como Zen, Cíngulo, Headspace, entre outros.
@@ -110,6 +110,15 @@ function ApoioPsicologico() {
                             </p>
                             <p>
                                 São somente alguns, caso tenha condições ainda é possível, buscar algum psicólogo de sua confiança, além de buscar apoio, com familiares e amigos.
+                            </p>
+                            <br />
+                            <p>
+                                Links de onde buscar apoio psicológico:
+                                <br />
+                                <br />
+                                <a href="https://cvv.org.br">CVV(Centro de Valorização a Vida)</a>
+                                <br />
+                                <a href="https://www.gov.br/saude/pt-br/composicao/saps">SUS - CAPS(Centro de Atenção Psicossocial)</a>
                             </p>
                         </div>
                     }
