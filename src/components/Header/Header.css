@@ -62,7 +62,6 @@ h1 {
   transition: transform 0.3s ease;
 }
 
-/* Só no hover aparece o sublinhado */
 .Faleconosco a:hover::after {
   transform: scaleX(1);
 }
