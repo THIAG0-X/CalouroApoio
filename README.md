@@ -283,7 +283,7 @@ Para saber as configurações CSS da media querie do Menu acesse: /src/pages/hom
         ]
     ```
 
-        -- Aqui está o "arrray" de mensagens, que é uma lista de várias mensagens motivacionias;
+        -- Aqui está o "array" de mensagens, que é uma lista de várias mensagens motivacionias;
         -- Cada vex que o índice "currentIndex" muda, aparece uma dessas mensagens.
 
     - Estdado para controlar qual mensagem mostrar:
