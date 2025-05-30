@@ -394,7 +394,7 @@ Para saber as configurações CSS da media querie do Menu acesse: /src/pages/hom
 
 # Tecnologias Utilizadas
 
-- VS Code → 
+- VS Code → Editor de código utilizado durante todo o desenvolvimento do projeto. Permite escrever, organizar, executar o código, além de oferecer recursos como terminal integrado, controle de versão com Git e suporte a extensões que facilitam o desenvolvimento em ReactJS.
 
 - ReactJS → Biblioteca JavaScript utilizada para construir a interface do portal no formato SPA (Single Page Application), proporcionando navegação dinâmica sem recarregar a página.
 
