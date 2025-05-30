@@ -84,9 +84,9 @@ Como objetivo pedagógico esse projeto se trata de um trabalho acadêmico da Uni
         ``` 
         
         
-        -- Aqui é criada a variável de estado "menuActive";
-        -- Ela recebe o valor inicial "false", pois menu está fechado/invisível(o estado de visiblidade foi feito por media querie);
-        -- A função "setMenuActive" serve para alterar esse estado.
+        - Aqui é criada a variável de estado "menuActive";
+        - Ela recebe o valor inicial "false", pois menu está fechado/invisível(o estado de visiblidade foi feito por media querie);
+        - A função "setMenuActive" serve para alterar esse estado.
     
     - Função para alterar o menu:
         ```jsx
@@ -96,11 +96,11 @@ Como objetivo pedagógico esse projeto se trata de um trabalho acadêmico da Uni
             //Arquivo Header.jsx
         ```
 
-        -- Sempre que o botão for clicado a função "toggleMenu()" é chamada;
-        -- Essa função análisa:
-            --- Se o menu está "false"(menu fechado), ela muda para "true"(menu aberto)
-            --- Se o menu está "true"(menu aberto) ela muda para "false"(menu fechado)
-        -- Isso só possível por causa do código "setMenuActive(!menuActive)".
+        - Sempre que o botão for clicado a função "toggleMenu()" é chamada;
+        - Essa função análisa:
+            - Se o menu está "false"(menu fechado), ela muda para "true"(menu aberto)
+            - Se o menu está "true"(menu aberto) ela muda para "false"(menu fechado)
+        - Isso só possível por causa do código "setMenuActive(!menuActive)".
     
     - Botão de abrir/fechar o menu: 
         ```jsx
@@ -116,16 +116,16 @@ Como objetivo pedagógico esse projeto se trata de um trabalho acadêmico da Uni
             <Navbar menuActive={menuActive} /> //Arquivo Header.jsx
         ```
 
-        -- O componente "Navbar" recebe a informação se o menu está aberto(true) ou fechado(false).
+        - O componente "Navbar" recebe a informação se o menu está aberto(true) ou fechado(false).
     
     - Navbar aplica a condiicional:
         ```jsx 
             <ul className={`itens_navbar ${menuActive ? 'itens_navbar-active' : ''}`}> //Arquivo Navbar.jsx
         ```
 
-        -- Se menuActive for true adciona a classe "itens_navbar_active";
-        -- Se for "false", essa classe não aparece;
-        -- O CSS usa essa classe para exibir ou esconder o menu.
+        - Se menuActive for true adciona a classe "itens_navbar_active";
+        - Se for "false", essa classe não aparece;
+        - O CSS usa essa classe para exibir ou esconder o menu.
 
 Para saber as configurações CSS da media querie do Menu acesse: /src/pages/home/Home.css
 
@@ -136,9 +136,9 @@ Para saber as configurações CSS da media querie do Menu acesse: /src/pages/hom
             const [isExpanded, setIsExpanded] = useState(false) //Arquivo ExpandCard.jsx
         ```
 
-        -- Aqui é criada a variável de estado chamada "isExpanded";
-        -- Ela recebe o valor "false", ou seja, quando o card está fechado exibindo o título e o sumário do card;
-        -- A função "setIsExpanded" serve para alterar esse estado.
+        - Aqui é criada a variável de estado chamada "isExpanded";
+        - Ela recebe o valor "false", ou seja, quando o card está fechado exibindo o título e o sumário do card;
+        - A função "setIsExpanded" serve para alterar esse estado.
     
     - Função que alterna o card:
         ```jsx
@@ -147,11 +147,11 @@ Para saber as configurações CSS da media querie do Menu acesse: /src/pages/hom
             } //Arquivo ExpandCard.jsx
          ```
 
-        -- Sempre que o botão "+"(mais) ou "-"(menos) for clicado a função "toggleExpand()" é chamada;
-        -- Essa função análisa:
-            --- Se o card está "false"(fechado), ela muda para "true"(abre, mostrando os detalhes)
-            --- Se o menu está "true"(aberto) ela volta para "false"(fecha, escondendo os detalhes)
-        -- Isso só possível por causa do código "setIsExpanded(!isExpanded)".
+        - Sempre que o botão "+"(mais) ou "-"(menos) for clicado a função "toggleExpand()" é chamada;
+        - Essa função análisa:
+            - Se o card está "false"(fechado), ela muda para "true"(abre, mostrando os detalhes)
+            - Se o menu está "true"(aberto) ela volta para "false"(fecha, escondendo os detalhes)
+        - Isso só possível por causa do código "setIsExpanded(!isExpanded)".
 
     - Botão que controla o card:
         ```jsx
@@ -162,9 +162,9 @@ Para saber as configurações CSS da media querie do Menu acesse: /src/pages/hom
             )} //Arquivo ExpandCard.jsx
         ```
 
-        -- Se o card está aberto "(isExpanded === true)", mostra o ícone de "-"(menos) para poder recolher o card;
-        -- Se o card está fechado, mostra o ícone de "+"(mais) para poder expandir o card.
-        -- Com o evento "onClick={toggleExpand}" o clique no "+" ou "-", dispara a função "toggleExpand()", que alterna o estado do card.
+        - Se o card está aberto "(isExpanded === true)", mostra o ícone de "-"(menos) para poder recolher o card;
+        - Se o card está fechado, mostra o ícone de "+"(mais) para poder expandir o card.
+        - Com o evento "onClick={toggleExpand}" o clique no "+" ou "-", dispara a função "toggleExpand()", que alterna o estado do card.
 
     - Classe condicional que controla o conteúdo:
         ```jsx
@@ -172,8 +172,8 @@ Para saber as configurações CSS da media querie do Menu acesse: /src/pages/hom
                 <div>{details}</div>
             </div> //Arquivo ExpandCard.jsx
         ```
-        -- Se isExpanded for "true", adiciona a classe "show" -> O CSS faz o conteúdo de detalhes aparecer;
-        -- Se for "false", a classe não aparece -> o CSS mantém o conteúdo oculto.
+        - Se isExpanded for "true", adiciona a classe "show" → O CSS faz o conteúdo de detalhes aparecer;
+        - Se for "false", a classe não aparece -> o CSS mantém o conteúdo oculto.
 
     - Também muda a classe no container externo:
         ```jsx
@@ -203,8 +203,8 @@ Para saber as configurações CSS da media querie do Menu acesse: /src/pages/hom
             import { createBrowserRouter, RouterProvider } from "react-router-dom" //Arquivo main.jsx
         ```
 
-            -- O "createBrowserRouter" cria um conjunto de rotas;
-            -- O "RouterProvider" faz o React entender e aplicar as rotas.
+            - O "createBrowserRouter" cria um conjunto de rotas;
+            - O "RouterProvider" faz o React entender e aplicar as rotas.
 
         - Definindo as rotas:
             ```jsx
@@ -234,9 +234,9 @@ Para saber as configurações CSS da media querie do Menu acesse: /src/pages/hom
                 ]) //Arquivo main.jsx
             ```
 
-            -- A página "/" usa o componente "<App />" como estrutura principal(base);
-            -- Dentro de "<App />", usa "<Outlet />" para trocar o conteúdo conforme a página clicada; 
-            -- As rotas filhas são as páginas que mudam dentro do layout.
+            - A página "/" usa o componente "<App />" como estrutura principal(base);
+            - Dentro de "<App />", usa "<Outlet />" para trocar o conteúdo conforme a página clicada; 
+            - As rotas filhas são as páginas que mudam dentro do layout.
 
         - O papel do arquivo App.jsx:
             ```jsx
@@ -253,12 +253,12 @@ Para saber as configurações CSS da media querie do Menu acesse: /src/pages/hom
                 export default App
             ```
 
-            -- O componente "<App />" funciona como layout base;
-            -- O "<Outlet />" é um espaço reservado.Quando o usuário navega, O React Router colaca aqui a página correspondente:
-                --- Se está na "/", ele renderiza "<Home />";
-                --- Se está em "/VidaAcademica", ele coloca "<VidaAcademica />" no lugar do "<Outlet />".
+            - O componente "<App />" funciona como layout base;
+            - O "<Outlet />" é um espaço reservado.Quando o usuário navega, O React Router colaca aqui a página correspondente:
+                - Se está na "/", ele renderiza "<Home />";
+                - Se está em "/VidaAcademica", ele coloca "<VidaAcademica />" no lugar do "<Outlet />".
     - Links de navegação na Navbar:
-        ````jsx
+        ```jsx
             <li><Link to="/" className="link">Início</Link></li>
             <li><Link to="/VidaAcademica" className="link">Vida Academica</Link></li>
             <li><Link to="/OportunidadesBeneficios" className="link">Oportunidades e Benefícios</Link></li>
@@ -266,8 +266,8 @@ Para saber as configurações CSS da media querie do Menu acesse: /src/pages/hom
             //Arquivo Navbar.jsx       
         ```
 
-        -- Cada link é clicavel e altera a rota do site sem recarregar a página;
-        -- Quando clica, o React Router atualiza o endereço e coloca "<Outlet />" a página correspondente.
+        - Cada link é clicavel e altera a rota do site sem recarregar a página;
+        - Quando clica, o React Router atualiza o endereço e coloca "<Outlet />" a página correspondente.
 
 
 4. Caixa de Mensagem: Ela vai trocando com o tempo várias mensagens motivacionais:
@@ -283,17 +283,17 @@ Para saber as configurações CSS da media querie do Menu acesse: /src/pages/hom
         ]
     ```
 
-        -- Aqui está o "array" de mensagens, que é uma lista de várias mensagens motivacionias;
-        -- Cada vex que o índice "currentIndex" muda, aparece uma dessas mensagens.
+        - Aqui está o "array" de mensagens, que é uma lista de várias mensagens motivacionias;
+        - Cada vex que o índice "currentIndex" muda, aparece uma dessas mensagens.
 
     - Estdado para controlar qual mensagem mostrar:
         ```jsx
             const [currentIndex, setCurrentIndex] = useState(0) //Arquivo MotivationalMsg.jsx
         ```
 
-        -- Aqui é criada a variável de estado "currentIndex";
-        -- A princípio ela começa com o valor 0, ou seja, na primeira chamada do "array";
-        -- A função "setCurrentIndex" serve para atualizar qual mensagem será exibida
+        - Aqui é criada a variável de estado "currentIndex";
+        - A princípio ela começa com o valor 0, ou seja, na primeira chamada do "array";
+        - A função "setCurrentIndex" serve para atualizar qual mensagem será exibida
 
     - Efeito que troca a mensagem a cada intervalo de tempo:
         ```jsx
@@ -308,12 +308,12 @@ Para saber as configurações CSS da media querie do Menu acesse: /src/pages/hom
             }, [messages.length])
         ```
 
-        -- O "useEffect" excuta esse código quando o componente é carregado na tela;
-        -- O "setInterval()" cria um temporizador que executa uma função a 30 segundos(30000ms)
-        -- A função faz o seguinte: 
-            --- Se o índice atual "prevIndex" for o último da lista, ele volta para 0(renincia);
-            --- Caso contrário, ele soma mais um e vai para próxima mensagem.
-        -- O "return () => clearInterval(interval)" faz uma limpeza. Isso impede que o temporizador continue rodando quando o usuário sair da página ou recarregar o componente.
+        - O "useEffect" excuta esse código quando o componente é carregado na tela;
+        - O "setInterval()" cria um temporizador que executa uma função a 30 segundos(30000ms)
+        - A função faz o seguinte: 
+            - Se o índice atual "prevIndex" for o último da lista, ele volta para 0(renincia);
+            - Caso contrário, ele soma mais um e vai para próxima mensagem.
+        - O "return () => clearInterval(interval)" faz uma limpeza. Isso impede que o temporizador continue rodando quando o usuário sair da página ou recarregar o componente.
 
     - Renderizando a mensagem na tela:
         ```jsx
@@ -322,14 +322,14 @@ Para saber as configurações CSS da media querie do Menu acesse: /src/pages/hom
             </div>
         ```
 
-        -- O React exibe uma "<div>" com a mensagem atual, de acordo com o índice armazenado em "currentIndex";
-        -- A cada 30 segundos, esse valor muda, e o texto na tela se atualiza automaticamente.
+        - O React exibe uma "<div>" com a mensagem atual, de acordo com o índice armazenado em "currentIndex";
+        - A cada 30 segundos, esse valor muda, e o texto na tela se atualiza automaticamente.
 
 5. CSS Responsivo: Abaixo estão as configutações das media queries.
     ```css
         @media screen and (max-width:880px) {
                 .menu {
-                    z-index: 1;
+                    z-index: 3;
                 }
 
                 .Motivational_msg{
@@ -355,6 +355,7 @@ Para saber as configurações CSS da media querie do Menu acesse: /src/pages/hom
                     gap: 0;
                     background-color: #6883E4;
                     pointer-events: none;
+                    z-index: 2;
                 }
                 .itens_navbar li{
                     font-size: 16px;
@@ -370,8 +371,8 @@ Para saber as configurações CSS da media querie do Menu acesse: /src/pages/hom
                     clip-path: circle(1500px at 90% -15%);
                     pointer-events: all;
                 }
-                .Faleconosco .icone{
-                    z-index: 1;
+                .Faleconosco {
+                    z-index: 3;
                 }
             }
 
@@ -381,16 +382,20 @@ Para saber as configurações CSS da media querie do Menu acesse: /src/pages/hom
             }
         }
     ```
-    -- As media queries foram escolhidas para um melhor uso do site em diferentes dispositivos, seja móveis ou desktop.
+    - As media queries foram escolhidas para um melhor uso do site em diferentes dispositivos, seja móveis ou desktop.
 
 # Estrutura do Projeto
 
-/src/components -> Componentes reutilizáveis
-/src/pages -> Páginas do site
-/src/styles -> Configurações globais do CSS
-/src -> Além das páginas anteriores possui os arquivos: main.jsx e App.jsx.
+/src → Além das páginas anteriores possui os arquivos: main.jsx e App.jsx.
+/src/components → Componentes reutilizáveis.
+/src/pages → Páginas do site.
+/src/styles → Configurações globais do CSS.
+/src/assets → Imagens Utilizadas.
 
 # Tecnologias Utilizadas
+
+- VS Code → 
+
 - ReactJS → Biblioteca JavaScript utilizada para construir a interface do portal no formato SPA (Single Page Application), proporcionando navegação dinâmica sem recarregar a página.
 
 - Vite → Ferramenta de desenvolvimento que oferece um ambiente rápido para projetos React, permitindo carregamento instantâneo e build (compilação) otimizada.
@@ -403,12 +408,47 @@ Para saber as configurações CSS da media querie do Menu acesse: /src/pages/hom
 
 - Font Awesome (React Icons) → Biblioteca de ícones utilizada no menu, botões e seções.
 
-# Como Rodar
+# Como Rodar Localmente
 
-# Links Uteis
+## Pré-requisitos
 
-# Documentação
+- Ter Node.js na máquina: https://nodejs.org/
 
-Este documento apresenta a documentação do projeto: CalouroApoio.
+
+1. Clonar repositório:
+
+    - Abra o terminal e digite:
+    ```bash
+        git clone https://github.com/THIAG0-X/CalouroApoio.git
+    ```
+
+2. Acesse a pasta do projeto:
+
+    - Ainda no terminal:
+    ```bash
+        cd CalouroApoio
+    ```
+
+3. Instale as dependências:
+
+    - No terminal:
+    ```bash
+        npm install
+    ```
+
+4. Execute o projeto localmente:
+
+    - No caso está utlizando o npm:
+    ```bash
+        npm run dev
+    ```
+
+5. Acesse no navegador: 
+
+    - O terminal vai mostrar:
+    ```bash
+    Local: http://localhost:5173/
+    ```
+
 
 

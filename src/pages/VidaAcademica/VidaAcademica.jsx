@@ -54,20 +54,21 @@ function VidaAcademica() {
                             </p>
                             <br />
                             <p>
-                                Agenda ou planner: físico ou digital, te ajuda a anotar datas importantes como: trabalhos e provas.
+                                Agenda ou planner: físico ou digital, te ajuda a anotar datas importantes como: trabalhos e provas;
                                 <br />
                                 <br />
-                                Cronograma de estudos: distribua o tempo entre as matérias, priorizando as de maior dificuldade ou da área que queira se especializar.
+                                Cronograma de estudos: distribua o tempo entre as matérias, priorizando as de maior dificuldade ou da área que queira se especializar;
                                 <br />
                                 <br />
-                                Métodos de estudo: explore técnicas de estudo como: pesquisar conteúdo na internet(YouTube, Instagram, Likedin portais especializados), realizar resumos, mapas mentais, flashcards, entre outros.
+                                Métodos de estudo: explore técnicas de estudo como: pesquisar conteúdo na internet(YouTube, Instagram, Likedin portais especializados), realizar resumos, mapas mentais, flashcards, entre outros;
                                 <br />
                                 <br />
-                                Ambiente organizado: estude em um local tranquilo, iluminado e livre de distrações.
+                                Ambiente organizado: estude em um local tranquilo, iluminado e livre de distrações;
                                 <br />
                                 <br />
                                 Equilíbrio: reserve tempo para descanso, lazer e autocuidado.
                             </p>
+                            <br />
                             <p>
                                 Utilize estes métodos da forma que melhor se encaixa para você, e aplique outros que encontrar além desses.
                             </p>
@@ -101,10 +102,10 @@ function VidaAcademica() {
                             </p>
                             <br />
                             <p>
-                                Participe: envolva-se em projetos, grupos de estudo e atividades extracurriculares.
+                                Participe: envolva-se em projetos, grupos de estudo e atividades extracurriculares;
                                 <br />
                                 <br />
-                                Fique atento: Aos horários das matérias, provas e trabalhos.
+                                Fique atento: Aos horários das matérias, provas e trabalhos;
                                 <br />
                                 <br />
                                 Busque apoio: converse com professores, coordenadores, veteranos, e outros colegas e utilize os serviços de apoio da instituição.

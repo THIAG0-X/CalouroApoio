@@ -27,16 +27,16 @@ function ApoioPsicologico() {
                             </p>
                             <br />
                             <p>
-                                Estabelecer pausas e momentos de descanso.
-                                <br />
-                                <b></b>
-                                Evitar comparar seu desempenho com o dos outros.
+                                Estabelecer pausas e momentos de descanso;
                                 <br />
                                 <br />
-                                Manter uma rede de apoio (amigos, colegas, familiares).
+                                Evitar comparar seu desempenho com o dos outros;
                                 <br />
                                 <br />
-                                Reconhecer seus limites e não se sobrecarregar.
+                                Manter uma rede de apoio (amigos, colegas, familiares);
+                                <br />
+                                <br />
+                                Reconhecer seus limites e não se sobrecarregar;
                                 <br />
                                 <br />
                                 Buscar ajuda quando perceber sinais de esgotamento, ansiedade ou tristeza frequente.
@@ -65,16 +65,16 @@ function ApoioPsicologico() {
                             </p>
                             <br />
                             <p>
-                                Sono: mantenha uma rotina de sono, priorizando boas horas de descanso.
+                                Sono: mantenha uma rotina de sono, priorizando boas horas de descanso;
                                 <br />
                                 <br />
-                                Alimentação: cuide da sua alimentação, evitando longos períodos sem comer e preferindo alimentos nutritivos.
+                                Alimentação: cuide da sua alimentação, evitando longos períodos sem comer e preferindo alimentos nutritivos;
                                 <br />
                                 <br />
-                                Lazer: reserve um tempo para fazer coisas que te dão prazer, como hobbies, filmes, esportes ou encontros com amigos.
+                                Lazer: reserve um tempo para fazer coisas que te dão prazer, como hobbies, filmes, esportes ou encontros com amigos;
                                 <br />
                                 <br />
-                                Atividade física: caminhadas, exercícios ou práticas que movimentem seu corpo ajudam na disposição e no humor.
+                                Atividade física: caminhadas, exercícios ou práticas que movimentem seu corpo ajudam na disposição e no humor;
                                 <br />
                                 <br />
                                 Desconectar: evite ficar o tempo todo conectado. Reserve momentos longe de telas e redes sociais.
@@ -101,15 +101,17 @@ function ApoioPsicologico() {
                                 Apoio na própria instituição: muitas universidades oferecem atendimento psicológico, grupos de escuta ou acompanhamento psicológico temporário. Informe-se no setor de apoio ao estudante ou na coordenação.
                                 <br />
                                 <br />
-                                CVV (Centro de Valorização da Vida): atendimento gratuito, sigiloso e 24h, pelo telefone 188 ou pelo site.
+                                CVV (Centro de Valorização da Vida): atendimento gratuito, sigiloso e 24h, pelo telefone 188 ou pelo site;
                                 <br />
                                 <br />
-                                Apps de apoio emocional: alguns aplicativos oferecem meditações, escuta ativa e orientação, como Zen, Cíngulo, Headspace, entre outros.
-
+                                Apps de apoio emocional: alguns aplicativos oferecem meditações, escuta ativa e orientação, como Zen, Cíngulo, Headspace, entre outros;
+                                <br />
+                                <br />
                                 Serviços públicos: CAPS (Centros de Atenção Psicossocial) e unidades de saúde oferecem apoio psicológico gratuito.
                             </p>
+                            <br />
                             <p>
-                                São somente alguns, caso tenha condições ainda é possível, buscar algum psicólogo de sua confiança, além de buscar apoio, com familiares e amigos.
+                                São somente alguns, caso tenha condições ainda é possível, buscar algum psicólogo de sua confiança, além de buscar apoio com familiares e amigos.
                             </p>
                             <br />
                             <p>

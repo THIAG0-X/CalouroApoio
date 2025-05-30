@@ -24,10 +24,10 @@ function OportunidadesBeneficios() {
                             </p>
                             <br />
                             <p>
-                                Sociais: para estudantes em situação de vulnerabilidade socioeconômica.
+                                Sociais: para estudantes em situação de vulnerabilidade socioeconômica;
                                 <br />
                                 <br />
-                                Acadêmicas: destinadas a quem mantém bom desempenho nas disciplinas da faculdade.
+                                Acadêmicas: destinadas a quem mantém bom desempenho nas disciplinas da faculdade;
                                 <br /><br />
                                 De atividades: como pesquisa, extensão, monitoria e auxílio institucional.
                             </p>
@@ -50,10 +50,10 @@ function OportunidadesBeneficios() {
                             </p>
                             <br />
                             <p>
-                                Existem dois tipos: estágio obrigatório (exigido em alguns cursos) e não obrigatório (opcional, mas altamente recomendado).
+                                Existem dois tipos: estágio obrigatório (exigido em alguns cursos) e não obrigatório (opcional, mas altamente recomendado);
                                 <br />
                                 <br />
-                                A faculdade costuma ter setores que divulgam vagas e/ou auxiliam na busca em outras empresas.
+                                A faculdade costuma ter setores que divulgam vagas e/ou auxiliam na busca em outras empresas;
                                 <br />
                                 <br />
                                 Além disso, plataformas como CIEE, IEL, e sites de empregos oferecem diversas oportunidades.
@@ -91,20 +91,20 @@ function OportunidadesBeneficios() {
                             </p>
                             <br />
                             <p>
-                                Projetos de Extensão: ações que levam conhecimento à comunidade, promovendo impacto social.
+                                Projetos de Extensão: ações que levam conhecimento à comunidade, promovendo impacto social;
                                 <br />
                                 <br />
-                                Iniciação Científica: oportunidade para desenvolver pesquisas acadêmicas com orientação de professores.
+                                Iniciação Científica: oportunidade para desenvolver pesquisas acadêmicas com orientação de professores;
                                 <br />
                                 <br />
-                                Empresas Juniores: organizações geridas por estudantes que simulam empresas reais.
+                                Empresas Juniores: organizações geridas por estudantes que simulam empresas reais;
                                 <br />
                                 <br />
                                 Projetos Culturais, Esportivos ou Tecnológicos: atividades extracurriculares que complementam sua formação.
                             </p>
                             <br />
                             <p>
-                                Participar desse projetos pode ser importantes para fortalecer seu currículo, seus contatos e experiência, aumentando suas chance para futuras vagas de estágio, ou emprego.
+                                Participar desse projetos pode ser importantes para fortalecer seu currículo, seus contatos e experiência, aumentando suas chance para futuras vagas de estágio ou emprego.
                             </p>
                         </div>
                     }
