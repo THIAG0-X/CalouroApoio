@@ -47,7 +47,7 @@ Para isso o projeto possúi as seguintes categorias:
 
 
 ## Objetivo Pedagógico
-Como objetivo pedagógico esse projeto se trata de um trabalho acadêmico da Univeridade Unicarioca, como parte do Projeto de Extensão Web Front-End.
+Como objetivo pedagógico esse projeto se trata de um trabalho acadêmico da Universidade Unicarioca, como parte do Projeto de Extensão Web Front-End.
 
 # Funcionalidades
 
